@@ -95,8 +95,8 @@
                 <&inc_dec_kp UP_ARROW DOWN_ARROW>;
         };
 
-        raise_layer {
-            display-name = "raise";
+        Movement {
+            display-name = "Movement";
 
             // ------------------------------------------------------------------------------------------------------------
             // | BTCLR | BT1  | BT2  |  BT3  |  BT4  |  BT5 |                |      |      |       |      |       |       |
