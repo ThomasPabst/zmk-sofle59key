@@ -45,8 +45,8 @@
         };
 
         Caps {
-            bindings = <&kp CAPS>;
-            key-positions = <53 24>;
+            bindings = <&kp CLCK>;
+            key-positions = <24 52>;
         };
     };
 
