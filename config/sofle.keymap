@@ -48,6 +48,11 @@
             bindings = <&kp CLCK>;
             key-positions = <24 52>;
         };
+
+        Unlock_studio {
+            bindings = <&studio_unlock>;
+            key-positions = <50 59>;
+        };
     };
 
     keymap {
