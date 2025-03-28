@@ -111,14 +111,14 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&trans  &trans      &trans     &trans       &trans       &trans                      &trans     &trans    &trans    &trans     &trans   &trans
-&trans  &kp INS     &kp PSCRN  &kp K_CMENU  &trans       &trans                      &kp PG_UP  &trans    &kp UP    &trans     &kp N0   &trans
-&trans  &kp LALT    &kp LCTRL  &kp LSHFT    &trans       &kp CLCK                    &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp DEL  &kp BSPC
-&trans  &kp K_UNDO  &kp K_CUT  &kp K_COPY   &kp K_PASTE  &trans    &trans    &trans  &trans     &trans    &trans    &trans     &trans   &trans
-                    &trans     &trans       &trans       &trans    &trans    &trans  &trans     &trans    &trans    &trans
+&trans        &trans      &trans     &trans       &trans       &trans                    &trans     &trans    &trans    &trans     &trans  &trans
+&trans        &kp INS     &kp PSCRN  &kp K_CMENU  &trans       &trans                    &kp PG_UP  &trans    &kp UP    &trans     &trans  &kp DELETE
+&kp CAPSLOCK  &kp LALT    &kp LCTRL  &kp LSHFT    &trans       &trans                    &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
+&trans        &kp K_UNDO  &kp K_CUT  &kp K_COPY   &kp K_PASTE  &trans  &trans    &trans  &trans     &trans    &trans    &trans     &trans  &trans
+                          &trans     &trans       &trans       &trans  &trans    &trans  &trans     &trans    &trans    &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         adjust_layer {
@@ -146,8 +146,8 @@
             bindings = <
 &gresc        &kp N1            &kp N2    &kp N3    &kp N4        &kp N5                                 &kp N6  &kp N7      &kp N8        &kp N9         &kp N0    &kp MINUS
 &kp TAB       &kp Q             &kp Q     &kp W     &kp E         &kp R                                  &kp Y   &kp DELETE  &kp UP_ARROW  &kp BACKSPACE  &kp P     &kp BSPC
-&kp NUMBER_2  &kp LS(NUMBER_1)  &kp A     &kp S     &kp D         &kp F                                  &kp H   &kp LEFT    &kp DOWN      &kp RIGHT      &kp SEMI  &kp SQT
-&kp NUMBER_1  &kp LC(NUMBER_2)  &kp X     &kp C     &kp V         &kp B         &kp EQUAL    &kp C_MUTE  &kp N   &kp M       &kp COMMA     &kp DOT        &kp FSLH  &kp RSHFT
+&kp NUMBER_2  &kp LEFT_SHIFT    &kp A     &kp S     &kp D         &kp F                                  &kp H   &kp LEFT    &kp DOWN      &kp RIGHT      &kp SEMI  &kp SQT
+&kp NUMBER_1  &kp LEFT_CONTROL  &kp X     &kp C     &kp V         &kp B         &kp EQUAL    &kp C_MUTE  &kp N   &kp M       &kp COMMA     &kp DOT        &kp FSLH  &kp RSHFT
                                 &kp LGUI  &kp LALT  &kp NUMBER_4  &kp NUMBER_3  &kp SPACE    &kp ENTER   &to 0   &kp RCTRL   &kp LALT      &kp RGUI
             >;
 
