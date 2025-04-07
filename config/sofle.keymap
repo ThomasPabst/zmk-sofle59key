@@ -142,11 +142,11 @@
         Gaming {
             display-name = "Gaming";
             bindings = <
-&gresc        &kp N1            &kp N2    &kp N3    &kp N4        &kp N5                                 &kp N6  &kp N7      &kp N8        &kp N9         &kp N0    &kp MINUS
-&kp NUMBER_3  &kp TAB           &kp Q     &kp W     &kp E         &kp R                                  &kp Y   &kp DELETE  &kp UP_ARROW  &kp BACKSPACE  &kp P     &kp BSPC
-&kp NUMBER_2  &kp LSHIFT        &kp A     &kp S     &kp D         &kp F                                  &kp H   &kp LEFT    &kp DOWN      &kp RIGHT      &kp SEMI  &kp SQT
-&kp NUMBER_1  &kp LEFT_CONTROL  &kp X     &kp C     &kp V         &kp B         &kp EQUAL    &kp C_MUTE  &kp N   &kp M       &kp COMMA     &kp DOT        &kp FSLH  &kp RSHFT
-                                &kp LGUI  &kp LALT  &kp NUMBER_4  &kp NUMBER_3  &kp SPACE    &kp ENTER   &to 0   &kp RCTRL   &kp LALT      &kp RGUI
+&gresc            &kp N1        &kp N2    &kp N3    &kp N4  &kp N5                           &kp N6  &kp N7      &kp N8        &kp N9         &kp N0    &kp MINUS
+&kp TAB           &kp NUMBER_3  &kp Q     &kp W     &kp E   &kp R                            &kp Y   &kp DELETE  &kp UP_ARROW  &kp BACKSPACE  &kp P     &kp BSPC
+&kp LEFT_SHIFT    &kp NUMBER_2  &kp A     &kp S     &kp D   &kp F                            &kp H   &kp LEFT    &kp DOWN      &kp RIGHT      &kp SEMI  &kp SQT
+&kp LEFT_CONTROL  &kp NUMBER_1  &kp X     &kp C     &kp V   &kp B   &kp G        &kp C_MUTE  &kp N   &kp M       &kp COMMA     &kp DOT        &kp FSLH  &kp RSHFT
+                                &kp LGUI  &kp LALT  &kp Z   &kp X   &kp SPACE    &kp ENTER   &to 0   &kp RCTRL   &kp LALT      &kp RGUI
             >;
 
             sensor-bindings =
