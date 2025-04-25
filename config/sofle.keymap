@@ -111,7 +111,7 @@
             bindings = <
 &trans            &trans      &trans     &trans       &trans       &trans                    &trans     &trans    &trans    &trans     &trans                &trans
 &kp CAPSLOCK      &kp INS     &kp PSCRN  &kp K_CMENU  &trans       &trans                    &kp PG_UP  &kp HOME  &kp UP    &kp END    &kp NON_US_HASH       &kp DELETE
-&kp LEFT_SHIFT    &kp LALT    &none      &none        &trans       &trans                    &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &none                 &none
+&kp LEFT_SHIFT    &kp LALT    &none      &none        &trans       &trans                    &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp LEFT_BRACKET      &none
 &kp LEFT_CONTROL  &kp K_UNDO  &kp K_CUT  &kp K_COPY   &kp K_PASTE  &trans  &trans    &trans  &trans     &trans    &trans    &trans     &kp NON_US_BACKSLASH  &none
                               &trans     &trans       &trans       &trans  &trans    &trans  &trans     &trans    &trans    &trans
             >;
